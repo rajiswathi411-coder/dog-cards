@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import DogCard from "./DogCard";
+import "./style.css";
+
+// Import images
+import julie from "./assets/images/julie.jpg";
+import innocent from "./assets/images/innocent.jpg";
+import buggy from "./assets/images/buggy.jpg";
+import saint from "./assets/images/saint.jpg";
 
 function App() {
+  const dogs = [
+    { image: julie, name: "Julie's Rabbit Ears" },
+    { image: innocent, name: "The Innocent Look" },
+    { image: buggy, name: "Big Eyed Buggy" },
+    { image: saint, name: "The Saint Doggo" },
+     { image: julie, name: "Julie's Rabbit Ears" },
+    { image: innocent, name: "The Innocent Look" },
+    { image: buggy, name: "Big Eyed Buggy" },
+    { image: saint, name: "The Saint Doggo" }
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="dog-grid">
+      {dogs.map((dog, index) => (
+        <DogCard key={index} image={dog.image} name={dog.name} />
+      ))}
     </div>
   );
 }
