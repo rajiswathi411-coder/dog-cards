@@ -1,0 +1,2 @@
+body{background-color:#f8f8f8;font-family:Arial,sans-serif;margin:0;padding:0}.dog-grid{grid-gap:10px;display:grid;gap:10px;grid-template-columns:repeat(4,200px);justify-content:center;padding:20px}.dog-card{background-color:#fff;border:1px solid #ccc;border-radius:5px;padding:5px;text-align:center}.dog-card img{border-radius:5px;height:150px;object-fit:cover;width:100%}.dog-card p{font-size:14px;margin:5px 0 0}
+/*# sourceMappingURL=main.1202cb4c.css.map*/

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dog-cards/static/css/main.1202cb4c.css",
+    "main.js": "/dog-cards/static/js/main.67d089d2.js",
+    "static/media/innocent.jpg": "/dog-cards/static/media/innocent.f230da7f930b4c6e3142.jpg",
+    "index.html": "/dog-cards/index.html",
+    "main.1202cb4c.css.map": "/dog-cards/static/css/main.1202cb4c.css.map",
+    "main.67d089d2.js.map": "/dog-cards/static/js/main.67d089d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1202cb4c.css",
+    "static/js/main.67d089d2.js"
+  ]
+}
